@@ -1,5 +1,6 @@
-import tomllib
-from tomllib import load, loads
+import toml
+# import tomllib
+# from tomllib import load, loads
 import os
 import comfy.sd
 import folder_paths
@@ -62,8 +63,10 @@ class LoadAndSettingParametersMittimi01:
         else:
             preset_data = ""
             preset_path = os.path.join(presets_directory_path, d['message'])
-            with open(preset_path, mode='rb') as f:
-                preset_data = tomllib.load(f)
+            # with open(preset_path, mode='rb') as f:
+            #     preset_data = tomllib.load(f)
+            with open(preset_path, 'r') as f:
+                preset_data = toml.load(f)
             PromptServer.instance.send_sync("my.custom.message", {"message":preset_data, "node":d['node_id']})
 
 
@@ -79,8 +82,10 @@ class LoadPresetForSettingParametersMittimi01:
 
     def loadPreset(self, preset):
         preset_path = os.path.join(presets_directory_path, preset)
-        with open(preset_path, mode='rb') as f:
-            d = tomllib.load(f)
+        # with open(preset_path, mode='rb') as f:
+        #     d = tomllib.load(f)
+        with open(preset_path, 'r') as f:
+            d = toml.load(f)
         return (d, )
 
 
