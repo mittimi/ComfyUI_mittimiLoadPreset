@@ -1,5 +1,5 @@
 [project]
-name = "ComfyUI_mittimiLoadPreset"
+name = "comfyui-mittimi-load-preset"
 description = "The system selects and loads preset."
 version = "1.0.0"
 license = {file = "LICENSE"}
