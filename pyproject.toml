@@ -3,13 +3,12 @@ name = "ComfyUI_mittimiLoadPreset"
 description = "The system selects and loads preset."
 version = "1.0.0"
 license = {file = "LICENSE"}
-dependencies = ["torch==2.1.1+cu121"]
+dependencies = []
 
 [project.urls]
 Repository = "https://github.com/mittimi/ComfyUI_mittimiLoadPreset"
-#  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "TOKEN_BY_GITHUB"
+PublisherId = "mittimi"
 DisplayName = "ComfyUI_mittimiLoadPreset"
 Icon = ""
