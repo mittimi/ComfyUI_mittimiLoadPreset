@@ -1,0 +1,11 @@
+PositivePromptA = "score_9,score_8_up,score_7_up"
+PositivePromptC = "film grain, detailed skin, depth of field"
+NegativePromptA = "score_4,score_5,score_6, text, cgi, watermark, 3d, 2d, painting, cartoons, sketch"
+NegativePromptC = ""
+CheckpointName = "PonyRealismV21VAE.safetensors"
+ClipSet = -2
+VAE = "SdxlVAE.safetensors"
+Steps = 20
+CFG = 6.0
+SamplerName = "dpmpp_sde"
+Scheduler = "normal"
