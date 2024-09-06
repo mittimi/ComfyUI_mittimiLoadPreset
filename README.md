@@ -1,4 +1,15 @@
-# ComfyUI_mittimiLoadPreset
+# ComfyUI_mittimiLoadPreset  
+　  
+> [!WARNING]
+> I have solved some problems and revamped the functionality, so we have created a new custom node page.
+> 
+> **New node page is here. ->** [https://github.com/mittimi/ComfyUI_mittimiLoadPreset2](https://github.com/mittimi/ComfyUI_mittimiLoadPreset2)
+> 
+> いくつかの問題を解決し、機能を見直したので、新しいカスタムノードページを上記URLに作りました。  
+> 
+> This node will not be updated, so please use the above node.  
+> こちらのノードは更新しませんので、上記のノードを使用してください。  
+　  
 
 ＃＃＃ 日本語の説明は後半にあります ＃＃＃
 
